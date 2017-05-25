@@ -89,13 +89,7 @@ h1 {
 	background-attachment: fixed;
 }
 
-@media only screen and (max-device-width: 1024px) {
-	.bg-img1, .bg-img2 {
-		height: 350px;
-		min-height: 350px;
-		background-attachment: scroll;
-	}
-}
+
 
 /*.footer {
 	min-width: 100%;
@@ -131,4 +125,23 @@ h1 {
 .footer p {
 	text-align: center;
 	font-weight: bold;
+}
+
+
+
+/*mobile settings*/
+@media only screen and (max-device-width: 1024px) {
+	.bg-img1, .bg-img2 {
+		height: 350px;
+		min-height: 350px;
+		background-attachment: scroll;
+	}
+
+	.bg-img1 {
+		background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/slac_m.jpg");
+	}
+
+	.bg-img2 {
+		background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/u_of_r_m.jpg");
+	}	
 }
