@@ -89,6 +89,8 @@ h1 {
 
 @media only screen and (max-device-width: 1024px) {
 	.bg-img1, .bg-img2 {
-		height: 400px;
+		height: 350px;
+		min-height: 350px;
+		background-attachment: scroll;
 	}
 }
