@@ -47,6 +47,8 @@ h1 {
 	font-family: "Open Sans Condensed", "Ubuntu Condensed", "Pathway Gothic One", sans-serif;
 	font-size: 24px;
 	color: black;
+	letter-spacing: 0.07em;
+	text-align: justify;
 }
 
 .default-text a:link, a:visited {
@@ -81,4 +83,12 @@ h1 {
 	background-position: center top;
 	background-size: cover;
 	background-attachment: fixed;
+}
+
+
+
+@media only screen and (max-device-width: 1024px) {
+	.bg-img1, .bg-img2 {
+		height: 400px;
+	}
 }
