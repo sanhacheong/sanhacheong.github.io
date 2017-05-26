@@ -129,8 +129,8 @@ h1 {
 /*mobile settings*/
 @media only screen and (max-device-width: 1024px) {
 	.bg-img1, .bg-img2 {
-		height: 450px;
-		min-height: 450px;
+		height: 1000px;
+		min-height: 1000px;
 		background-attachment: scroll;
 	}
 
