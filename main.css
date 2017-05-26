@@ -16,7 +16,17 @@ h1 {
 	background-attachment: fixed;
 	
 	font-family: "Open Sans Condensed", "Ubuntu Condensed", "Pathway Gothic One", sans-serif;
-	color: white;
+	color: #FFFFFF;
+	text-align: center;
+}
+
+h2 {
+	padding: 80px 80px;
+
+	font-family: "Open Sans Condensed", "Ubuntu Condensed", "Pathway Gothic One", sans-serif;
+	font-size: 36px;
+	color: #000000;
+	
 	text-align: center;
 }
 
@@ -46,7 +56,7 @@ h1 {
 	
 	font-family: "Open Sans Condensed", "Ubuntu Condensed", "Pathway Gothic One", sans-serif;
 	font-size: 24px;
-	color: black;
+	color: #000000;
 	letter-spacing: 0.07em;
 	text-align: justify;
 }
@@ -81,7 +91,6 @@ h1 {
 	height: 100%;
 	width: 100%;
 	margin: 0 auto;
-	position: relative;
 
 	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/u_of_r.jpg");
 	background-repeat: no-repeat;
@@ -90,24 +99,18 @@ h1 {
 	background-attachment: fixed;
 }
 
-
-
-/*.footer {
-	min-width: 100%;
+.bg-img3 {
+	height: 100%;
+	width: 100%;
 	margin: 0 auto;
-	clear: both;
 	position: relative;
-	bottom: 0;
 
-	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
-
-	font-size: 16px;
-	font-weight: bold;
-	color: #FFFFFF;
-	letter-spacing: 0.05em;
-	line-height: 5px;
-	text-align: center;
-}*/
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/ATLAS_experiment.jpg");
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: cover;
+	background-attachment: fixed;
+}
 
 .footer {
 	min-width: 100%;
@@ -128,17 +131,37 @@ h1 {
 
 /*mobile settings*/
 @media only screen and (max-device-width: 1024px) {
-	.bg-img1, .bg-img2 {
-		/*height: 1000px;
-		min-height: 1000px;*/
-		background-attachment: scroll;
-	}
-
 	.bg-img1 {
 		background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/slac_m.jpg");
 	}
 
 	.bg-img2 {
 		background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/u_of_r_m.jpg");
-	}	
+	}
+
+	.bg-img3 {
+		background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/ATLAS_experiment_m.jpg");
+	}
+
+	.bg-img1, .bg-img2, .bg-img3 {
+		/*height: 60%;
+		min-height: 60%;
+		width: 100%;
+		margin: 0 auto;
+
+		background-attachment: fixed;
+		background-position: center top;
+		background-repeat: no-repeat;
+		background-size: cover;*/
+
+		height: 80%;
+		width: 100%;
+		margin: 0 auto;
+
+		background-repeat: no-repeat;
+		background-position: center bottom;
+		background-size: cover;
+		background-attachment: fixed;
+
+	}
 }
