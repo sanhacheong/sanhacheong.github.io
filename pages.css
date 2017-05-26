@@ -2,45 +2,8 @@ body, html {
 	font-size: 100%;
 	height: 100%;
 	margin: 0;
-	font-family: "Open Sans Condensed", "Ubuntu Condensed", "Pathway Gothic One", sans-serif;
 }
 
-
-
-/*navbar*/
-ul.navbar {
-	position: fixed;
-	top: 0;
-	width: 100%;
-	list-style: none;
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
-	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
-}
-
-li.navbar {
-	float: right;
-}
-
-li.navbar a {
-	display: block;
-	color: #FFFFFF;
-	text-align: center;
-	font-size: 16px;
-	letter-spacing: 0.2em;
-	padding: 12px 16px;
-	text-decoration: none;
-}
-
-li.navbar a:hover, a:active {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
-}
-
-
-
-
-/*main body*/
 h1 {
 	height: 100%;
 	width: 100%;
