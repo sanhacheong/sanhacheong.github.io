@@ -21,27 +21,40 @@
 	  // Add smooth scrolling to all links
 	  $("a").on('click', function(event) {
 
-	    // Make sure this.hash has a value before overriding default behavior
-	    if (this.hash !== "") {
-	      // Prevent default anchor click behavior
-	      event.preventDefault();
+		// Make sure this.hash has a value before overriding default behavior
+		if (this.hash !== "") {
+		  // Prevent default anchor click behavior
+		  event.preventDefault();
 
-	      // Store hash
-	      var hash = this.hash;
+		  // Store hash
+		  var hash = this.hash;
 
-	      // Using jQuery's animate() method to add smooth page scroll
-	      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-	      $('html, body').animate({
-	        scrollTop: $(hash).offset().top
-	      }, 1000, function(){
+		  // Using jQuery's animate() method to add smooth page scroll
+		  // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+		  $('html, body').animate({
+			scrollTop: $(hash).offset().top
+		  }, 1000, function(){
 	   
-	        // Add hash (#) to URL when done scrolling (default click behavior)
-	        // window.location.hash = hash;
-	      });
-	    } // End if
+			// Add hash (#) to URL when done scrolling (default click behavior)
+			// window.location.hash = hash;
+		  });
+		} // End if
 	  });
 	});
 	</script>
+	<script>
+	$(window).scroll(function() {
+		if ($(window).scrollTop() > $(window).height()*0.95) {
+			$("ul.navbar").css("top", "0px");
+		} else {
+			$("ul.navbar").css("top", "-150px");
+		}
+	});
+	</script>
+
+
+
+
 
 	<a id="top"></a>
 
@@ -52,7 +65,7 @@
 
 	<h1>
 		<div id="titles">
-			<div class="title">SANHA CHEONG<hr width=500px></div>
+			<div class="title">SANHA CHEONG<hr width=350px></div>
 			<div class="subtitle">nerd.from.birth / physicist.in.training</div>
 		</div>
 	</h1>
@@ -80,7 +93,7 @@
 	<a id="links"></a>
 	<div class="default-text">
 		<p>
-		You can also find me via...
+		You can also find me at...
 		</p>
 	</div>
 	

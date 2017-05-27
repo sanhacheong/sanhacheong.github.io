@@ -10,13 +10,16 @@ body, html {
 /*navbar*/
 ul.navbar {
 	position: fixed;
-	top: 0;
+	top: -100px;
 	width: 100%;
+	z-index: 999;
 	list-style: none;
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
-	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+	background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
 }
 
 li.navbar {
@@ -34,8 +37,16 @@ li.navbar a {
 }
 
 li.navbar a:hover, a:active {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+	background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 1));
 }
+
+.sticky {
+ 	/*background-color: rgba(255, 255, 255, 0.93);*/
+	/*opacity: 1;*/
+	top: 0px;
+	/*border-bottom: 1px solid lighten($color, 30%);*/
+}
+
 
 
 
@@ -68,9 +79,9 @@ h2 {
 }
 
 #titles {
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
+		position: relative;
+		top: 50%;
+		transform: translateY(-50%);
 }
 
 .title {
