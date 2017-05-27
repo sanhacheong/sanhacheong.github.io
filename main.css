@@ -10,7 +10,7 @@ body, html {
 /*navbar*/
 ul.navbar {
 	position: fixed;
-	top: -150px;
+	top: -100px;
 	width: 100%;
 	z-index: 999;
 	list-style: none;

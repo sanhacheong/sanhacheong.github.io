@@ -16,6 +16,7 @@
 	<!-- js -->
 	<!-- smooth scrolling -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
 	<script>
 		$(document).ready(function(){
 		  // Add smooth scrolling to all links
@@ -47,19 +48,20 @@
 			if ($(window).scrollTop() > $(window).height()*0.95) {
 				$("ul.navbar").css("top", "0px");
 			} else {
-				$("ul.navbar").css("top", "-150px");
+				$("ul.navbar").css("top", "-100px");
 			}
 		});
 	</script>
 	<script>
-		$(".top-region").hover(
-			function() {
-				$("ul.navbar").css("top", "0px");
-			},
-			function() {
-				$("ul.navbar").css("top", "-150px");
-			}
-		);
+		$(document).ready(function() {
+			$(".top-region").hover(
+				function() {
+					$("ul.navbar").css("top", "0px");
+				}, function() {
+					$("ul.navbar").css("top", "-100px");
+				}
+			);
+		});
 	</script>
 
 
@@ -68,12 +70,12 @@
 
 	<a id="top"></a>
 
-	<div class="top-region"></div>
-
 	<ul class="navbar">
 		<li class="navbar"><a href="#links">links</a></li>
 		<li class="navbar"><a href="#top">home</a></li>
 	</ul>
+
+	<div class="top-region"></div>
 
 	<h1>
 		<div id="titles">
