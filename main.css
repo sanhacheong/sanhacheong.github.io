@@ -41,8 +41,8 @@ li.navbar a:hover, a:active {
 }
 
 .top-region {
-	height: 150px;
-	min-height: 150px;
+	height: 100px;
+	min-height: 100px;
 
 	min-width: 100%;
 	margin: 0px auto;
