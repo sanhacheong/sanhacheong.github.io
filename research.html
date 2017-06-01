@@ -11,11 +11,41 @@
 
 
 
+<style type="text/css">
+	#bg-img1 {
+		background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/galilei_quote.jpg");
+	}
+
+	#bg-img2 {
+		background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/u_of_r.jpg");
+	}
+
+	#bg-img3 {
+		background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/ATLAS_experiment.jpg");
+	}
+
+	@media only screen and (max-device-width: 1024px) {
+		#bg-img1 {
+		background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/slac_m.jpg");
+		}
+
+		#bg-img2 {
+			background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/u_of_r_m.jpg");
+		}
+
+		#bg-img3 {
+			background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/ATLAS_experiment_m.jpg");
+		}
+	}
+</style>
+
+
+
 <body>
 
 	<!-- js -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-	<script src="scripts/app.js"></script>
+	<script src="scripts/app_pages.js"></script>
 
 
 
@@ -23,11 +53,10 @@
 
 	<ul class="navbar">
 		<li class="navbar"><a href="Sanha_Cheong_CV.pdf" target="_blank">cv</a></li>
-		<li class="navbar"><a href="#links">links</a></li>
-		<li class="navbar"><a href="#top">home</a></li>
+		<li class="navbar"><a href="teaching_advising.html">teaching</a></li>
+		<li class="navbar"><a href="#top.html">research</a></li>
+		<li class="navbar"><a href="index.html">home</a></li>
 	</ul>
-
-	<div class="top-region"></div>
 
 	<h1>
 		<div id="titles">
@@ -37,33 +66,67 @@
 	</h1>
 
 	<div class="default-text">
+		<h2>Teaching</h2>
 		<p class="indent">
-		<img src="img/profile.jpg" style="float: left; margin:8px;" align="left" width=240px height=240px/>
-		I am a Physics PhD student at <a href="http://www.stanford.edu" target="_blank">Stanford University</a>, studying experimental particle physics and cosmology. Currently, I work on the <a href="http://atlas.cern" target="_blank">ATLAS</a> experiment at the <a href="https://atlas.slac.stanford.edu/", target="_blank"> SLAC Group</a>. More generally, I am interested in the intersection of particle physics and cosmology, the interface between theories and experiments, the applications of deep learning and other novel algorithms in physics, and artificial intelligence. I am also very passionate about physics education and career counseling.
+		Outside of my own research, I am very passionate about teaching science and math. It is truly satisfying to be able to help others understand difficult material and, more importantly, get them to enjoy the subjects. Also, teaching often is a great opportunity to review the material myself and really think about the overall picture.
 		</p>
 		<p class="indent">
-		Outside of physics, I spend time writing, playing and watching basketball, playing around with non-physical datasets, and (most importantly) sleeping.
+		Thankfully, being a teaching assistant since my sophomore year of undergrad, I have had a lot of opportunities to teach other students at college level. Here are the classes I have taught so far:
+		</p>
+		<p class="indent">
+		<ul class="nobullet">
+			<li class="intext">Teaching Assistant, <a href="http://www.stanford.edu" target="_blank">Stanford University</a>
+				<table>
+					<tr class="list">
+						<td>To be Determined...</td>
+					</tr>
+				</table>
+			</li>
+			<li class="intext">Teaching Assistant, <a href="http://www.rochester.edu" target="_blank">University of Rochester</a>
+				<table>
+					<tr class="list">
+						<td>PHY 227</td><td>:</td>
+						<td>Thermodynamics & Statistical Mechanics, Spring 2017</td>
+					</tr>
+					<tr class="list">
+						<td>PHY 142</td><td>:</td>
+						<td>Electricity & Magnetism (Honors), Fall 2016</td>
+					</tr>
+					<tr class="list">
+						<td>PHY 143</td><td>:</td>
+						<td>Waves and Modern Physics (Honors), Spring 2016</td>
+					</tr>
+					<tr class="list">
+						<td>PHY 122</td><td>:</td>
+						<td>Electricity & Magnetism, Fall 2015</td>
+					</tr>
+					<tr class="list">
+						<td>MTH 172</td><td>:</td>
+						<td>Honors Calculus II, Spring 2015</td>
+					</tr>
+					<tr class="list">
+						<td>MTH 171</td><td>:</td>
+						<td>Honors Calculus I, Fall 2015</td>
+					</tr>
+				</table>
+			</li>
+			
+		</ul>
 		</p>
 	</div>
 
-	<div class="bg-img1"></div>
+	<div class="bg-img" id="bg-img1"></div>
 
 	<div class="default-text">
 		<p class="indent">
-		Before coming to Stanford, I was an undergraduate student at <a href="http://www.rochester.edu" target="_blank">University of Rochester</a>. I graduated in May 2017 with a B.S. in Physics & Astronomy with Highest Distinction and a B.A. in Mathematics. As an undergrad, I worked with <a href="http://www.pas.rochester.edu/people/faculty/demina_regina/index.html" target="_blank">Prof. Regina Demina</a> on cosmological data analysis research, preparing for the <a href="http://desi.lbl.gov" target="_blank">DESI</a> project.
+		In addition to teaching, I also enjoy counseling/advising&mdash;really just talking & listening to people and sharing my experiences.
 		</p>
-	</div>
-
-	<div class="bg-img2"></div>
-
-	<a id="links"></a>
-	<div class="default-text">
-		<p>
-		You can also find me at...
+		<p class="indent">
+		I have been blessed with many good mentors and leaders throughout my life, especially academically. I would love to pay back by being a good role model to others and sharing my experiences.
 		</p>
 	</div>
 	
-	<div class="bg-img3"></div>
+	<div class="bg-img" id="bg-img3"></div>
 
 	<div class="relative">
 		<div class="footer">
