@@ -9,13 +9,14 @@ body, html {
 
 /*navbar*/
 ul.navbar {
+	height: 48px;
 	position: fixed;
 	top: -100px;
 	width: 100%;
 	z-index: 999;
 	list-style: none;
-	margin: 0;
-	padding: 0;
+	margin: 0px;
+	padding: 0px;
 	overflow: hidden;
 	background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
 	-webkit-transition: all 0.3s;
@@ -27,6 +28,7 @@ li.navbar {
 }
 
 li.navbar a {
+	height: 48px;
 	display: block;
 	color: #FFFFFF;
 	text-align: center;
@@ -123,6 +125,36 @@ h1 {
 	text-indent: 2.5em;
 }
 
+ul {
+	padding-left: 0px;
+}
+
+ul.nobullet {
+	list-style-type: none;
+}
+
+li.intext {
+	padding-left: 2.5em;
+}
+
+li:not(:last-child) {
+	margin-bottom: 0.3ex;
+}
+
+li.intext::before {
+	content: "\002022";
+	padding-right: 1em;
+}
+
+table {
+	padding-left: 0.5em;
+}
+
+tr.list::before {
+	content: "\002022";
+	padding-right: 1em;
+}
+
 .relative {
 	position: relative;
 }
@@ -165,6 +197,10 @@ h1 {
 		letter-spacing: 0.2em;
 		padding: 20px 20px;
 		text-decoration: none;
+	}
+
+	ul.navbar, li.navbar a {
+		height: 80px;
 	}
 
 }

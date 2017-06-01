@@ -9,8 +9,9 @@ body, html {
 
 /*navbar*/
 ul.navbar {
+	height: 48px;
 	position: fixed;
-	top: 0px;
+	top: -100px;
 	width: 100%;
 	z-index: 999;
 	list-style: none;
@@ -27,6 +28,7 @@ li.navbar {
 }
 
 li.navbar a {
+	height: 48px;
 	display: block;
 	color: #FFFFFF;
 	text-align: center;
@@ -70,7 +72,7 @@ h1 {
 	text-align: center;
 }
 
-.bg-img1 {
+.bg-img {
 	height: 100%;
 	width: 100%;
 	margin: 0 auto;
@@ -84,10 +86,9 @@ h1 {
 h2 {
 	font-family: "Open Sans Condensed", "Ubuntu Condensed", "Pathway Gothic One", sans-serif;
 	font-size: 36px;
-	/*color: #550000;*/
+	color: #553333;
 	letter-spacing: 0.4em;
 
-	/*text-decoration: underline;*/
 	text-align: center;
 }
 
@@ -108,9 +109,6 @@ h2 {
 }
 
 .default-text {
-	/*height: 400px;*/
-	/*min-height: 400px;*/
-
 	padding: 80px 80px;
 
 	background-color: white;
@@ -136,12 +134,15 @@ h2 {
 	text-indent: 2.5em;
 }
 
-ul.nobullet {
+ul {
 	padding-left: 0px;
+}
+
+ul.nobullet {
 	list-style-type: none;
 }
 
-li {
+li.intext {
 	padding-left: 2.5em;
 }
 
@@ -200,6 +201,10 @@ tr.list::before {
 		letter-spacing: 0.2em;
 		padding: 20px 20px;
 		text-decoration: none;
+	}
+
+	ul.navbar, li.navbar a {
+		height: 80px;
 	}
 
 }

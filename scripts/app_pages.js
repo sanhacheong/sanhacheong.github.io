@@ -18,7 +18,7 @@ $(document).ready(function(){
 	  }, 1000, function(){
    
 		// Add hash (#) to URL when done scrolling (default click behavior)
-		// window.location.hash = hash;
+		window.location.hash = hash;
 	  });
 	} // End if
   });
@@ -28,7 +28,7 @@ $(document).ready(function(){
 
 // navbar
 $(window).scroll(function() {
-	if ($(window).scrollTop() > $(window).height()*0.75) {
+	if ($(window).scrollTop() > $(window).height()*0.4) {
 		$("ul.navbar").css("top", "0px");
 	} else {
 		$("ul.navbar").css("top", "-100px");
