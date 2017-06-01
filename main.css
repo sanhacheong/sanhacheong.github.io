@@ -70,7 +70,7 @@ h1 {
 	text-align: center;
 }
 
-h2 {
+/*h2 {
 	padding: 80px 80px;
 
 	font-family: "Open Sans Condensed", "Ubuntu Condensed", "Pathway Gothic One", sans-serif;
@@ -78,7 +78,7 @@ h2 {
 	color: #000000;
 	
 	text-align: center;
-}
+}*/
 
 #titles {
 		position: relative;
@@ -118,7 +118,7 @@ h2 {
 
 .default-text a:hover, a:active {
 	text-decoration: underline;
-	color: #bb0000;
+	color: #a50000;
 }
 
 .indent {
@@ -211,7 +211,7 @@ h2 {
 		margin: 0 auto;
 
 		background-repeat: no-repeat;
-		background-position: center bottom;
+		background-position: center top;
 		background-size: cover;
 		background-attachment: fixed;
 	}

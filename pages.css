@@ -10,7 +10,7 @@ body, html {
 /*navbar*/
 ul.navbar {
 	position: fixed;
-	top: -100px;
+	top: 0px;
 	width: 100%;
 	z-index: 999;
 	list-style: none;
@@ -71,19 +71,19 @@ h1 {
 }
 
 h2 {
-	padding: 80px 80px;
-
 	font-family: "Open Sans Condensed", "Ubuntu Condensed", "Pathway Gothic One", sans-serif;
 	font-size: 36px;
-	color: #000000;
-	
+	color: #330000;
+	letter-spacing: 0.3em;
+
+	text-decoration: underline;
 	text-align: center;
 }
 
 #titles {
-		position: relative;
-		top: 50%;
-		transform: translateY(-50%);
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
 }
 
 .title {
@@ -118,7 +118,7 @@ h2 {
 
 .default-text a:hover, a:active {
 	text-decoration: underline;
-	color: #bb0000;
+	color: #a50000;
 }
 
 .indent {
@@ -150,7 +150,7 @@ h2 {
 }
 
 .bg-img3 {
-	height: 100%;
+	height: 40%;
 	width: 100%;
 	margin: 0 auto;
 
