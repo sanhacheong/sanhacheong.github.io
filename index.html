@@ -11,6 +11,36 @@
 
 
 
+<style type="text/css">
+	#bg-img1 {
+		background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/slac.jpg");
+	}
+
+	#bg-img2 {
+		background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/u_of_r.jpg");
+	}
+
+	#bg-img3 {
+		background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/ATLAS_experiment.jpg");
+	}
+
+	@media only screen and (max-device-width: 1024px) {
+		#bg-img1 {
+		background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/slac_m.jpg");
+		}
+
+		#bg-img2 {
+			background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/u_of_r_m.jpg");
+		}
+
+		#bg-img3 {
+			background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/ATLAS_experiment_m.jpg");
+		}
+	}
+</style>
+
+
+
 <body>
 
 	<!-- js -->
@@ -46,7 +76,7 @@
 		</p>
 	</div>
 
-	<div class="bg-img1"></div>
+	<div class="bg-img" id="bg-img1"></div>
 
 	<div class="default-text">
 		<p class="indent">
@@ -54,7 +84,7 @@
 		</p>
 	</div>
 
-	<div class="bg-img2"></div>
+	<div class="bg-img" id="bg-img2"></div>
 
 	<a id="links"></a>
 	<div class="default-text">
@@ -63,7 +93,7 @@
 		</p>
 	</div>
 	
-	<div class="bg-img3"></div>
+	<div class="bg-img" id="bg-img3"></div>
 
 	<div class="relative">
 		<div class="footer">
