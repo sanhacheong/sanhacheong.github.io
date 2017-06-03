@@ -168,7 +168,7 @@ tr.list::before {
 @media only screen and (max-device-width: 1024px) {
 
 	.bg-img {
-		height: 80%;
+		height: 100%;
 		width: 100%;
 		margin: 0 auto;
 
