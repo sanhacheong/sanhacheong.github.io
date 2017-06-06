@@ -108,6 +108,7 @@ h1 {
 .default-text a:hover, a:active {
 	text-decoration: underline;
 	color: #a50000;
+	background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0));
 }
 
 .indent {
