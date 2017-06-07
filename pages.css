@@ -81,6 +81,13 @@ h2 {
 	text-align: center;
 }
 
+h3 {
+	font-family: "Open Sans Condensed", "Ubuntu Condensed", "Pathway Gothic One", sans-serif;
+	font-size: 28px;
+	color: #553333;
+	letter-spacing: 0.2em;
+}
+
 #titles {
 	position: relative;
 	top: 50%;
