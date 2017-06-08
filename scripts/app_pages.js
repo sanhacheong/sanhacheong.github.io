@@ -74,3 +74,10 @@ $(document).ready(
 		setTimeout(hideNavbar, 500);
 	}
 );
+
+
+
+// footer
+$(function(){
+	$("#footer").load("../footer.html"); 
+});
