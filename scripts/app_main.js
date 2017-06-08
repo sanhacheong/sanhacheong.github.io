@@ -22,7 +22,12 @@ $(document).ready(function() {
 		} // End if
 	});
 })
-	
+
+
+
+$(function(){
+      $("#header").load("navbar.html"); 
+    });
 
 
 // navbar
