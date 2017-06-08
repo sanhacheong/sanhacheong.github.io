@@ -25,12 +25,10 @@ $(document).ready(function() {
 
 
 
-$(function(){
-      $("#header").load("navbar.html"); 
-    });
-
-
 // navbar
+$(function(){
+	$("#header").load("navbar_main.html"); 
+});
 
 // hide navbar by moving out of window 100px
 function hideNavbar() {
@@ -64,12 +62,6 @@ $(document).mousemove(function(event) {
 		}
 	}
 });
-
-// $("ul.navbar").mouseenter(
-// 	function() {
-// 		$(this).css("top", "0px");
-// 	}
-// );
 
 $(".dropdown").mouseenter(
 	function() {
