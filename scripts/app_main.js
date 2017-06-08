@@ -27,24 +27,53 @@ $(document).ready(function() {
 
 // navbar
 
+// hide navbar by moving out of window 100px
+function hideNavbar() {
+	$("ul.navbar").css("top", "-100px");
+}
+
+// track vertical mouse position globally
+// default=500px, roughly middle of the screen
+var currentMousePosY = 500;
+
+// based on mouse position, play around with navbar
 $(document).mousemove(function(event) {
-	if (window.event.clientY < 100) {
+	// update mouse position
+	currentMousePosY = window.event.clientY;
+
+	// if within top 100px
+	if (currentMousePosY <= 100) {
+		// show navbar
 		$("ul.navbar").css("top", "0px");
-	} else {
+	} else { // if not in the top region
+		// AND not over dropdown contents
 		if (!($(".dropdown:hover").length > 0)) {
-			$("ul.navbar").css("top", "-100px");
+			// give 500ms delay
+			setTimeout(function() {
+				// after 500ms, mouse position is updated (because it is global)
+				if (currentMousePosY > 100) {
+					// if the last updated mouse position is not in top 100px
+					hideNavbar();
+				}
+			}, 500);
 		}
 	}
 });
 
-$("ul.navbar").mouseenter(
-	function() {
-		$(this).css("top", "0px");
-	}
-);
+// $("ul.navbar").mouseenter(
+// 	function() {
+// 		$(this).css("top", "0px");
+// 	}
+// );
 
 $(".dropdown").mouseenter(
 	function() {
 		$("ul.navbar").css("top", "0px");
+	}
+);
+
+$(document).ready(
+	function() {
+		setTimeout(hideNavbar, 500);
 	}
 );

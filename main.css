@@ -15,8 +15,8 @@ ul.navbar {
 	width: 100%;
 	z-index: 999;
 	list-style: none;
-	margin: 0px;
-	padding: 0px;
+	margin: 0;
+	padding: 0;
 	overflow: hidden;
 	background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
 	-webkit-transition: all 0.3s;
@@ -106,10 +106,26 @@ h1 {
 	background-attachment: fixed;
 }
 
+h2 {
+	font-family: "Open Sans Condensed", "Ubuntu Condensed", "Pathway Gothic One", sans-serif;
+	font-size: 36px;
+	color: #553333;
+	letter-spacing: 0.4em;
+
+	text-align: center;
+}
+
+h3 {
+	font-family: "Open Sans Condensed", "Ubuntu Condensed", "Pathway Gothic One", sans-serif;
+	font-size: 28px;
+	color: #553333;
+	letter-spacing: 0.2em;
+}
+
 #titles {
-		position: relative;
-		top: 50%;
-		transform: translateY(-50%);
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
 }
 
 .title {
@@ -165,11 +181,6 @@ li:not(:last-child) {
 	margin-bottom: 0.3ex;
 }
 
-li.intext::before {
-	content: "\002022";
-	padding-right: 1em;
-}
-
 table {
 	padding-left: 0.5em;
 }
@@ -181,6 +192,25 @@ tr.list::before {
 
 .relative {
 	position: relative;
+}
+
+.caption {
+	min-width: 100%;
+	margin: 0px auto;
+	position: absolute;
+	bottom: 0;
+
+	text-align: right;
+	line-height: 8px;
+
+	font-size: 10px;
+	color: #FFFFFF;
+	letter-spacing: 0.1em;
+}
+
+.caption a {
+	text-decoration: underline;
+	color: #FFFFFF;
 }
 
 .footer {
