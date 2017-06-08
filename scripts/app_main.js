@@ -26,11 +26,6 @@ $(document).ready(function() {
 
 
 // navbar
-$(window).onload(
-	function() {
-		$("ul.navbar").css("top", "-100px");
-	}
-);
 
 $(document).mousemove(function(event) {
 	if (window.event.clientY < 100) {

@@ -28,7 +28,7 @@ li.navbar {
 }
 
 li.navbar a {
-	height: 48px;
+	height: 24px;
 	display: block;
 	color: #FFFFFF;
 	text-align: center;
@@ -73,10 +73,7 @@ li.navbar a:hover, li.navbar a:active {
 
 .dropdown:hover .dropdown-content {
 	display: block;
-}
-
-.dropdown:hover li.navbar a {
-	background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 1));
+	position: fixed;
 }
 
 
