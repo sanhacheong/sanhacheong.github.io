@@ -38,7 +38,7 @@ li.navbar a {
 	text-decoration: none;
 }
 
-li.navbar a:hover, a:active {
+li.navbar a:hover, li.navbar a:active {
 	background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 1));
 }
 
@@ -100,12 +100,12 @@ h1 {
 	text-align: justify;
 }
 
-.default-text a:link, a:visited {
+.default-text a:link, .default-text a:visited {
 	text-decoration: none;
 	color: #800000;
 }
 
-.default-text a:hover, a:active {
+.default-text a:hover, .default-text a:active {
 	text-decoration: underline;
 	color: #a50000;
 	background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0));
