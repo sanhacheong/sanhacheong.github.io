@@ -27,7 +27,7 @@ $(document).ready(function() {
 
 // navbar
 $(function(){
-	$("#header").load("navbar.html"); 
+	$("#header").load("navbar_main.html"); 
 });
 
 // hide navbar by moving out of window 100px
