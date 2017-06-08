@@ -22,12 +22,12 @@ $(document).ready(function() {
 		} // End if
 	});
 })
-	
+
 
 
 // navbar
 $(function(){
-	$("#header").load("../navbar_pages.html"); 
+	$("#header").load("navbar_main.html"); 
 });
 
 // hide navbar by moving out of window 100px
@@ -73,3 +73,4 @@ $(document).ready(
 	function() {
 		setTimeout(hideNavbar, 500);
 	}
+);
