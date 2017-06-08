@@ -26,21 +26,12 @@ $(document).ready(function() {
 
 
 // navbar
-$(window).scroll(function() {
-	if ($(window).scrollTop() > $(window).height()*0.4) {
-		$("ul.navbar").css("top", "0px");
-	} else {
-		$("ul.navbar").css("top", "-100px");
-	}
-});
 
 $(document).mousemove(function(event) {
 	if (window.event.clientY < 100) {
 		$("ul.navbar").css("top", "0px");
 	} else {
-		if ($(window).scrollTop() > $(window).height()*0.4) {
-			$("ul.navbar").css("top", "0px");
-		} else {
+		if (!($(".dropdown:hover").length > 0)) {
 			$("ul.navbar").css("top", "-100px");
 		}
 	}
@@ -49,5 +40,11 @@ $(document).mousemove(function(event) {
 $("ul.navbar").mouseenter(
 	function() {
 		$(this).css("top", "0px");
+	}
+);
+
+$(".dropdown").mouseenter(
+	function() {
+		$("ul.navbar").css("top", "0px");
 	}
 );

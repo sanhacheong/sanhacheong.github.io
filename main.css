@@ -11,7 +11,7 @@ body, html {
 ul.navbar {
 	height: 48px;
 	position: fixed;
-	top: -100px;
+	top: 0px;
 	width: 100%;
 	z-index: 999;
 	list-style: none;
