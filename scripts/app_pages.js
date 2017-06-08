@@ -55,16 +55,16 @@ $(document).mousemove(function(event) {
 					// if the last updated mouse position is not in top 100px
 					hideNavbar();
 				}
-			}, 800);
+			}, 500);
 		}
 	}
 });
 
-$("ul.navbar").mouseenter(
-	function() {
-		$(this).css("top", "0px");
-	}
-);
+// $("ul.navbar").mouseenter(
+// 	function() {
+// 		$(this).css("top", "0px");
+// 	}
+// );
 
 $(".dropdown").mouseenter(
 	function() {
@@ -74,6 +74,6 @@ $(".dropdown").mouseenter(
 
 $(document).ready(
 	function() {
-		setTimeout(hideNavbar, 800);
+		setTimeout(hideNavbar, 500);
 	}
 );
