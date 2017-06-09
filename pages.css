@@ -106,10 +106,15 @@ h1 {
 	background-attachment: fixed;
 }
 
+hr {
+	border-style: solid;
+	border-color: inherit;
+}
+
 h2 {
 	font-family: "Open Sans Condensed", "Ubuntu Condensed", "Pathway Gothic One", sans-serif;
 	font-size: 36px;
-	color: #553333;
+	color: #753333;
 	letter-spacing: 0.4em;
 
 	text-align: center;
@@ -118,7 +123,7 @@ h2 {
 h3 {
 	font-family: "Open Sans Condensed", "Ubuntu Condensed", "Pathway Gothic One", sans-serif;
 	font-size: 28px;
-	color: #553333;
+	color: #753333;
 	letter-spacing: 0.2em;
 }
 
@@ -188,6 +193,10 @@ table {
 tr.list::before {
 	content: "\002022";
 	padding-right: 1em;
+}
+
+td {
+	vertical-align: top;
 }
 
 .relative {
