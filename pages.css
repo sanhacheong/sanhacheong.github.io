@@ -200,6 +200,10 @@ td {
 	vertical-align: top;
 }
 
+table.cols {
+	width: 100%;
+}
+
 .relative {
 	position: relative;
 }

@@ -17,7 +17,8 @@ $(document).ready(function() {
 				{scrollTop: $(hash).offset().top},
 				1000, function() {
 					// Add htmlash (#) to URL when done scrolling (default click behavior)
-					window.location.hash = hash;}
+					// window.location.hash = hash;
+				}
 			);
 		} // End if
 	});
