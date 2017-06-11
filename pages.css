@@ -201,6 +201,7 @@ td {
 }
 
 table.cols {
+	padding-left: 2.5em;
 	width: 100%;
 }
 
