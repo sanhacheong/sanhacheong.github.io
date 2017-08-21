@@ -144,7 +144,7 @@ h3 {
 }
 
 .default-text {
-	padding: 80px 80px;
+	padding: 100px 150px;
 
 	background-color: white;
 	
@@ -198,6 +198,12 @@ tr.list::before {
 
 .relative {
 	position: relative;
+}
+
+blockquote {
+	padding: 0.5ex 2.5em;
+	margin-left: 2.5em;
+	border-left: 3px solid #753333;
 }
 
 .caption {
