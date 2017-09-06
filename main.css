@@ -2,9 +2,13 @@ body, html {
 	font-size: 100%;
 	height: 100%;
 	margin: 0;
-	font-family: "Open Sans Condensed", "Ubuntu Condensed", "Pathway Gothic One", sans-serif, "Noto Sans Korean";
+	font-family: "Open Sans Condensed", "Ubuntu Condensed", "Pathway Gothic One", sans-serif;
 }
 
+
+:lang(ko) {
+	font-family: "Open Sans Condensed", "Ubuntu Condensed", "Pathway Gothic One", sans-serif, "NanumGothic";
+}
 
 
 /*navbar*/
