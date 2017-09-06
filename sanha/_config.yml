@@ -32,12 +32,6 @@ defaults:
   -
     scope:
       path: ""
-      type: home
-    values:
-      layout: home
-  -
-    scope:
-      path: ""
       type: pages
     values:
       layout: default
