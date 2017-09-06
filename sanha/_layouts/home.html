@@ -10,7 +10,7 @@
 
 
 
-<style type="text/css">
+<!-- <style type="text/css">
   #bg-img1 {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("{{ site.base }}assets/img/slac.jpg");
   }
@@ -36,7 +36,7 @@
       background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("{{ site.base }}assets/img/charles_river.jpg");
     }
   }
-</style>
+</style> -->
 
 
 
@@ -52,7 +52,11 @@
 
   {% include navbar.html %}
 
-  <h1>
+  {% include title.html %}
+
+  {{ content }}  
+
+  <!-- <h1>
     <div id="titles">
       <div class="title">SANHA CHEONG<hr width=350px></div>
       <div class="subtitle">nerd.from.birth / physicist.in.training</div>
@@ -116,7 +120,7 @@
     </p>
   </div>
   
-  <div class="bg-img" id="bg-img3"></div>
+  <div class="bg-img" id="bg-img3"></div> -->
 
   {% include footer.html %}
   
