@@ -11,14 +11,15 @@ title: website.sanha
 permalink: /:year/:title/
 type: "blog"
 
+base: /
 ori_url: "https://sanhacheong.github.io"
 url: "https://www.slac.stanford.edu/~sanha/"
 domain_name: "https://www.slac.stanford.edu/~sanha/"
 baseurl: ""
 disqus_shortname: "sanha"
 
-mail: sanha@stanford.edu
 email: sanha@stanford.edu
+linkedin: "https://www.linkedin.com/in/sanha-cheong-5b44a3aa/"
 github: "https://www.github.com/sanhacheong"
 github_username: sanhacheong
 facebook: "https://www.facebook.com/sanha.cheong"
@@ -28,6 +29,12 @@ future: true
 paginate: 50
 
 defaults:
+  -
+    scope:
+      path: ""
+      type: home
+    values:
+      layout: home
   -
     scope:
       path: ""
