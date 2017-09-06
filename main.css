@@ -9,7 +9,9 @@ body, html {
 
 
 :lang(ko) {
-	font-family: "Noto Sans KR", sans-serif;
+	font-family: "Open Sans Condensed", "Ubuntu Condensed", "Pathway Gothic One", "Noto Sans KR", sans-serif;
+	font-size: 20px;
+	letter-spacing: 0;
 }
 
 
