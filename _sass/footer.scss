@@ -1,0 +1,23 @@
+#footer-bg {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/ATLAS_experiment.jpg");
+}
+
+@media only screen and (max-device-width: 1024px) {
+  #footer-bg {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/ATLAS_experiment_m.jpg");
+  }
+}
+
+.footer {
+  min-width: 100%;
+  margin: 0px auto;
+  position: absolute;
+  bottom: 0;
+
+  text-align: center;
+  line-height: 8px;
+
+  font-size: 16px;
+  color: #FFFFFF;
+  letter-spacing: 0.05em;
+}

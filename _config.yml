@@ -1,0 +1,46 @@
+name: Sanha Cheong
+author: Sanha Cheong
+description: >
+  This is Sanha's awesome personal & professional website.
+  He is a Physics PhD student at Stanford University with research interests in
+  particle physics, cosmology, and the applications of machine learning to physics research.
+  He works on a high-energy particle experiment called 'ATLAS' and is a member ofthe ATLAS Group
+  at Elementary Particle Physics (EPP) division of SLAC National Accelerator Laboratory.
+title: website.sanha
+permalink: /posts/:title/
+type: "blog"
+
+base: /
+ori_url: "https://sanhacheong.github.io"
+url: "https://www.slac.stanford.edu/~sanha/"
+domain_name: "https://www.slac.stanford.edu/~sanha/"
+baseurl: ""
+disqus_shortname: "sanha"
+
+email: sanha@stanford.edu
+linkedin: "https://www.linkedin.com/in/sanha-cheong-5b44a3aa/"
+github: "https://www.github.com/sanhacheong"
+github_username: sanhacheong
+facebook: "https://www.facebook.com/sanha.cheong"
+
+gems: [jekyll-paginate]
+future: true
+paginate: 50
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: pages
+    values:
+      layout: default
+  -
+    scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+
+# Build settings
+plugins:
+  - jekyll-feed

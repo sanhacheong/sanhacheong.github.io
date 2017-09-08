@@ -1,0 +1,61 @@
+/*header*/
+h1 {
+  height: 40%;
+  width: 100%;
+  margin: 0 auto;
+
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/sf_bay_night.jpg");
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  background-attachment: fixed;
+  
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.bg-img {
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+hr {
+  border-style: solid;
+  border-color: inherit;
+}
+
+h2 {
+  font-size: 40px;
+  color: #753333;
+  letter-spacing: 0.4em;
+
+  text-align: center;
+}
+
+h3 {
+  font-size: 32px;
+  color: #753333;
+  letter-spacing: 0.2em;
+}
+
+#titles {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.title {
+  font-size: 150%;
+  letter-spacing: 0.5em;
+}
+
+.subtitle {
+  font-size: 100%;
+  letter-spacing: 0.2em;
+}
