@@ -10,8 +10,10 @@ title: website.sanha
 permalink: /posts/:title/
 type: "blog"
 
-# base: /
-base: /~sanha/
+# build base for github.io page
+base: /
+# build base for slac public_html
+# base: /~sanha/
 pdf_dir: /pdf/
 ori_url: "https://sanhacheong.github.io"
 url: "https://www.slac.stanford.edu/~sanha/"
