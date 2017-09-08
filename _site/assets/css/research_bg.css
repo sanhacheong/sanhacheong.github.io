@@ -1,0 +1,17 @@
+#bg-img1 {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/cosmology_sim.jpg");
+}
+
+#bg-img2 {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/lhc_inside.jpg");
+}
+
+@media only screen and (max-device-width: 1024px) {
+	#bg-img1 {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/cosmology_sim.jpg");
+	}
+
+	#bg-img2 {
+		background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/lhc_inside.jpg");
+	}
+}

@@ -1,0 +1,50 @@
+---
+layout: pages
+title: Teaching &amp; Advising
+---
+
+<style type="text/css"> @import url("{{ site.base}}assets/css/teaching_advising_bg.css"); </style>
+
+
+
+<div class="default-text">
+	<h2>Teaching</h2>
+	<p class="indent">
+	Outside of my own research, I am very passionate about teaching science and math. It is truly satisfying to be able to help others understand difficult material and, more importantly, get them to enjoy the subjects. Also, teaching often is a great opportunity to review the material myself and really think about the overall picture.
+	</p>
+	<p class="indent">
+	Thankfully, being a teaching assistant since my sophomore year of undergrad, I have had a lot of opportunities to teach other students at college level. During my senior year at Rochester, I also ran the <a href="phy_GRE">Physics GRE</a> tutoring program through the <a href="https://www.pas.rochester.edu/~sps/" target="_blank">Society of Physics Students (SPS) Rochester Chapter</a>.
+	</p>
+	<p class="indent">
+	Here are the classes I have taught so far:
+	</p>
+	<p class="indent">
+	<ul class="nobullet">
+		{% for institution in site.data.courses_taught %}
+			<li class="intext">{{ institution.position }}, <a href="{{ institution.url }}" target="_blank">{{ institution.name }}</a>
+				<table>
+					{% for course in institution.courses %}
+					<tr class="list">
+						<td>{{ course.number }}</td>
+						{% if course.title %}
+							<td>:</td><td>{{ course.title }}, {{ course.term }}</td>
+						{% endif %}
+					</tr>
+					{% endfor %}
+				</table>
+			</li>
+		{% endfor %}
+	</ul>
+	</p>
+</div>
+
+<div class="bg-img" id="bg-img1"></div>
+
+<div class="default-text">
+	<p class="indent">
+	In addition to teaching, I also enjoy counseling/advising&mdash;really just talking & listening to people and sharing my experiences.
+	</p>
+	<p class="indent">
+	I have been blessed with many good mentors and leaders throughout my life, especially academically. I would love to pay back by being a good role model to others and sharing my experiences.
+	</p>
+</div>
