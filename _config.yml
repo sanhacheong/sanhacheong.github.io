@@ -10,12 +10,14 @@ title: website.sanha
 permalink: /posts/:title/
 type: "blog"
 
-base: /
+# base: /
+base: /~sanha/
 pdf_dir: /pdf/
 ori_url: "https://sanhacheong.github.io"
 url: "https://www.slac.stanford.edu/~sanha/"
 domain_name: "https://www.slac.stanford.edu/~sanha/"
 baseurl: ""
+exclude: "old_brute_web"
 disqus_shortname: "sanha"
 
 email: sanha@stanford.edu
