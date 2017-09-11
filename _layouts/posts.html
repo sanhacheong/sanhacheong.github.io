@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <meta charset="utf-8">
+  <title>{{ site.name }}{% if page.type %} | [{{ page.type }}] {% endif %} {% if page.title %} {{ page.title }}{% endif %}</title>
+  <link rel="icon" type = "image/x-icon" href="{{ site.base }}assets/img/icon.png">
+  <link rel="stylesheet" type="text/css" href="{{ site.base }}assets/css/posts_main.css">
+
+  <meta property="og:title" content="{{ site.title }}"/>
+  <meta property="og:description" content="{{ site.description }}"/>
+  <meta property="og:type" content="{{ site.type }}"/>
+  <meta property="og:url" content="{{ site.url }}"/>
+</head>
+
+
+
+<body>
+
+  <!-- js -->
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript" src="{{ site.base }}assets/js/app_main.js"></script>
+
+
+
+  <a id="top"></a>
+
+  {% include navbar.html %}
+
+  {% include title.html %}
+
+  <div class="default-text" {% if page.language %} lang="{{ page.language }}" {% endif %}>
+
+  {{ content }}  
+
+  </div>
+
+  {% include footer.html %}
+  
+</body>
+
+</html>
