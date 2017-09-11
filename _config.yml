@@ -4,9 +4,9 @@ description: >
   This is Sanha's awesome personal & professional website.
   He is a Physics PhD student at Stanford University with research interests in
   particle physics, cosmology, and the applications of machine learning to physics research.
-  He works on a high-energy particle experiment called 'ATLAS' and is a member ofthe ATLAS Group
+  He works on a high-energy particle experiment called 'ATLAS' and is a member of the ATLAS Group
   at Elementary Particle Physics (EPP) division of SLAC National Accelerator Laboratory.
-title: website.sanha
+title: Sanha's Website
 permalink: /posts/:title/
 type: "blog"
 
