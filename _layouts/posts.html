@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>{{ site.name }}{% if page.type %} | [{{ page.type }}] {% endif %} {% if page.title %} {{ page.title }}{% endif %}</title>
+  <title>{{ site.name }}{% if page.category %} | [{{ page.category }}] {% endif %} {% if page.title %} {{ page.title }}{% endif %}</title>
   <link rel="icon" type = "image/x-icon" href="{{ site.base }}assets/img/icon.png">
   <link rel="stylesheet" type="text/css" href="{{ site.base }}assets/css/posts_main.css">
 
@@ -29,7 +29,11 @@
 
   {% include title.html %}
 
-  <div class="default-text" {% if page.language %} lang="{{ page.language }}" {% endif %}>
+  <div class="default-text">
+
+  {% if page.language == "ko" %}
+    {% if page.title-KR %} <h1>{{ page.title-KR }}</h1> {% endif %}
+  {% endif %}
 
   {{ content }}  
 
