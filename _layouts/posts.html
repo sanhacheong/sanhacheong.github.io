@@ -31,8 +31,27 @@
 
   <div class="default-text">
 
-  {% if page.language == "ko" %}
-    {% if page.title-KR %} <h1>{{ page.title-KR }}</h1> {% endif %}
+  {% if page.author %}
+          <div class="author-info">
+    <table>
+      <tr>
+        <td style="width:60%;">
+          <h1>{{ page.title }}</h1>
+        </td>
+        <td style="position: absolute; bottom: 0; width:40%;" align="right">
+          {% if page.author %}
+            Written by {{ page.author }}
+          {% endif %}
+          <br>
+          {% if page.translated %}
+            Translated by {{ page.translated }}
+            <br>
+            <a href="{{ page.original_url }}">Original Post</a>
+          {% endif %}
+        </td>
+      </tr>
+    </table>
+          </div>
   {% endif %}
 
   {{ content }}  

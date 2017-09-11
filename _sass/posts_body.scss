@@ -1,20 +1,24 @@
 h1 {
   font-size: 200%;
   color: #753333;
+  letter-spacing: 0.1em;
+  margin: 0;
 }
 
 h2 {
   font-size: 40px;
   color: #753333;
   letter-spacing: 0.4em;
-
-  text-align: center;
 }
 
 h3 {
   font-size: 32px;
   color: #753333;
   letter-spacing: 0.2em;
+}
+
+.author-info {
+  position: relative;
 }
 
 .default-text {
@@ -78,7 +82,7 @@ td {
   vertical-align: top;
 }
 
-table.cols {
+table.indent {
   padding-left: 2.5em;
   width: 100%;
 }

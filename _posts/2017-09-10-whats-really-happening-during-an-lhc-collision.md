@@ -1,10 +1,11 @@
 ---
 layout: posts
-title: What's Really Happening during an LHC Collision?
-title-KR: 도대체 대형 강입자 충돌기에서는 무슨 일이 일어나는걸까?
+title: 도대체 대형 강입자 충돌기에서는 무슨 일이 일어나는걸까?
 date: 2017-09-10
-category: Symmetry-KR 
-translated: true
+category: Symmetry-KR
+author: Sarah Charley
+translated: Sanha Cheong
+original_url: https://www.symmetrymagazine.org/article/whats-really-happening-during-an-lhc-collision
 language: ko
 ---
 
