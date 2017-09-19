@@ -1,3 +1,7 @@
+// --------------
+// |  Headings  |
+// --------------
+
 h2 {
   font-size: 40px;
   color: #753333;
@@ -11,6 +15,12 @@ h3 {
   color: #753333;
   letter-spacing: 0.2em;
 }
+
+
+
+// ------------------
+// |  Default body  |
+// ------------------
 
 .default-text {
   margin: 150px 200px;
@@ -39,6 +49,12 @@ h3 {
 p {
   text-indent: 2.5em;
 }
+
+
+
+// ----------
+// |  List  |
+// ----------
 
 ul {
   padding-left: 0px;
@@ -73,6 +89,9 @@ table.indent {
   padding-left: 2.5em;
   width: 100%;
 }
+
+
+
 
 .relative {
   position: relative;
