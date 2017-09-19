@@ -4,15 +4,19 @@
 
 li.page-list {
   border-bottom: 2px solid #753333;
-  padding: 10px 0px;
-  margin: 0;
+  padding: 10px 10px;
+  margin: 0px;
 }
 
+li.page-list:last-child {
+  border-bottom: none;
+} 
+
 li.page-list:hover {
-  background-color: #DDDDDD;
+  background-color: #EEEEEE;
 }
 
 .tags {
   font-size: 16px;
-  color: #888888;
+  color: #555555;
 }

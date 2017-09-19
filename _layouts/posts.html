@@ -41,13 +41,11 @@
           <td style="position: absolute; bottom: 0; width:40%;" align="right">
             {% if page.translated %}
               <a href="{{ page.original_url }}">Original Post</a>
-            {% endif %}
             <br>
-            {% if page.author %}
-              Written by {{ page.author }}
             {% endif %}
-            <br>
+            Written by {{ page.author }}
             {% if page.translated %}
+            <br>
               Translated by {{ page.translated }}
             {% endif %}
           </td>
