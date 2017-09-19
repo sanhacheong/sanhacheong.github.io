@@ -1,8 +1,18 @@
 .paginator {
-  padding: 50px 300px;
+  padding: 50px 100px;
 }
 
 li.page-list {
   border-bottom: 2px solid #753333;
   padding: 10px 0px;
+  margin: 0;
+}
+
+li.page-list:hover {
+  background-color: #DDDDDD;
+}
+
+.tags {
+  font-size: 16px;
+  color: #888888;
 }
