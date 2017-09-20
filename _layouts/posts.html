@@ -32,20 +32,24 @@
   <div class="default-text">
 
   <div class="author-info">
-    <table>
+    <table style="table-layout: fixed; width: 100%;">
       <tr>
         <td style="width:60%;">
           <h1>{{ page.title }}</h1>
         </td>
         {% if page.author %}
           <td style="position: absolute; bottom: 0; width:40%;" align="right">
+            {% if page.date %}
+              {{ page.date | date:"%b %d, %Y" }}
+              <br>
+            {% endif %}
             {% if page.translated %}
               <a href="{{ page.original_url }}">Original Post</a>
-            <br>
+              <br>
             {% endif %}
             Written by {{ page.author }}
             {% if page.translated %}
-            <br>
+              <br>
               Translated by {{ page.translated }}
             {% endif %}
           </td>
