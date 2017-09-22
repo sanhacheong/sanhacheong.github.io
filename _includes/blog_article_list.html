@@ -3,14 +3,16 @@
 
 
 <div class="paginator">
+  <h2>Posts</h2>
+  <!-- <hr width="100%"> -->
   <ul class="nobullet">
       {% for post in paginator.posts %}
-          <li class="page-list">
+          <li class="page-list" >
               <a href="{{ site.base }}{{ post.url | remove_first: '/' }}">
                 {% if post.category %}[{{ post.category }}] {% endif %}
                 {{ post.title }}
               </a>
-              <span style="float:right;">{{ post.date | date:"%b %d" }}</span>
+              <span style="float:right; font-size: 18px;">{{ post.date | date:"%b %d" }}</span>
               {% if post.tags %}
                 <div class="tags">
                   {% for tag in post.tags %}
@@ -22,6 +24,7 @@
       {% endfor %}
   </ul>
 
+  <!-- <hr width="100%"> -->
   <!-- {% if paginator.previous_page or paginator.next_page %}
       {% include pagination.html %}
   {% endif %} -->

@@ -69,10 +69,6 @@ li.intext {
   padding-left: 2.5em;
 }
 
-li:not(:last-child) {
-  margin-bottom: 0.3ex;
-}
-
 table {
   padding-left: 0.5em;
 }
@@ -121,4 +117,27 @@ blockquote {
 .caption a {
   text-decoration: underline;
   color: #FFFFFF;
+}
+
+
+
+// ----------------------
+// | media screen size  |
+// ----------------------
+
+@media screen only and (max-width: 1300px) {
+
+ .default-text {
+    margin: 150px auto;
+    width: 960px;
+    min-width: 960px;
+    max-width: 1200px;
+
+    background-color: white;
+    
+    color: #000000;
+    letter-spacing: 0.07em;
+    text-align: justify;
+  }
+
 }

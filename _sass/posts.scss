@@ -1,0 +1,22 @@
+h1 {
+  font-size: 200%;
+  color: #753333;
+  letter-spacing: 0.1em;
+  margin: 0;
+}
+
+.author-info {
+  position: relative;
+  // padding: 0px;
+  // margin: 0;
+}
+
+blockquote {
+  padding: 0.5ex 2.5em;
+  margin-left: 2.5em;
+  border-left: 3px solid #753333;
+}
+
+blockquote > p {
+  text-indent: 0em;
+}
