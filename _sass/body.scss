@@ -63,10 +63,17 @@ ul {
 
 ul.nobullet {
   list-style-type: none;
+  text-indent: 2.5em;
 }
 
-li.intext {
-  padding-left: 2.5em;
+li {
+  // padding-left: 2.5em;
+  list-style-position: inside;
+}
+
+li > ul {
+  list-style-type: disc;
+  font-size: 80%;
 }
 
 table {

@@ -27,18 +27,16 @@ layout: home
 <div class="default-text" id="findme">
   <h3>Where to Find Me</h3>
   <p>
-  <ul class="nobullet">
-    {% for category in site.data.contacts %}
-      <li class="intext">{{ category.name }}
-        <table>
-          {% for item in category.items %}
-            <tr class="list">
-              <td><a href="{{ item.link }}" target="_blank" style="font-style: 24px;">{{ item.label }}</a></td>
-            </tr>
-          {% endfor %}
-        </table>
-      </li>
-    {% endfor %}
-  </ul>
+    <ul class="nobullet">
+      {% for category in site.data.contacts %}
+        <li class="intext">{{ category.name }}
+          <ul class="list">
+            {% for item in category.items %}
+                <li><a href="{{ item.link }}" target="_blank" style="font-size: 100%;">{{ item.label }}</a></li>
+            {% endfor %}
+          </ul>
+        </li>
+      {% endfor %}
+    </ul>
   </p>
 </div>
