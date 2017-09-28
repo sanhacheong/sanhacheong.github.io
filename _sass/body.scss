@@ -49,6 +49,7 @@ h3 {
 
 p {
   text-indent: 2.5em;
+  // text-indent: 50px;
 }
 
 
@@ -62,10 +63,9 @@ ul {
 }
 
 ul.nobullet {
-  font-size: 24px;
-  position: relative;
   list-style-type: none;
   padding-left: 2.5em;
+  // padding-left: 50px;
 }
 
 li {
