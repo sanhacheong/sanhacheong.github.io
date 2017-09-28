@@ -62,38 +62,20 @@ ul {
 }
 
 ul.nobullet {
+  font-size: 24px;
+  position: relative;
   list-style-type: none;
-  text-indent: 2.5em;
+  padding-left: 2.5em;
 }
 
 li {
-  // padding-left: 2.5em;
   list-style-position: inside;
 }
 
-li > ul {
+li > ul.list {
+  // width: 100%;
   list-style-type: disc;
-  font-size: 80%;
 }
-
-table {
-  padding-left: 0.5em;
-}
-
-tr.list::before {
-  content: "\002022";
-  padding-right: 1em;
-}
-
-td {
-  vertical-align: top;
-}
-
-table.indent {
-  padding-left: 2.5em;
-  width: 100%;
-}
-
 
 
 

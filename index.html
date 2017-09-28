@@ -29,7 +29,7 @@ layout: home
   <p>
     <ul class="nobullet">
       {% for category in site.data.contacts %}
-        <li class="intext">{{ category.name }}
+        <li>{{ category.name }}
           <ul class="list">
             {% for item in category.items %}
                 <li><a href="{{ item.link }}" target="_blank" style="font-size: 100%;">{{ item.label }}</a></li>

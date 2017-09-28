@@ -21,17 +21,17 @@ title: Teaching &amp; Advising
 	<p>
 	<ul class="nobullet">
 		{% for institution in site.data.courses_taught %}
-			<li class="intext">{{ institution.position }}, <a href="{{ institution.url }}" target="_blank">{{ institution.name }}</a>
-				<table>
+			<li>{{ institution.position }}, <a href="{{ institution.url }}" target="_blank">{{ institution.name }}</a>
+				<ul class="list">
 					{% for course in institution.courses %}
-					<tr class="list">
-						<td>{{ course.number }}</td>
-						{% if course.title %}
-							<td>:</td><td>{{ course.title }}, {{ course.term }}</td>
-						{% endif %}
-					</tr>
+						<li>
+							{{ course.number }}
+								{% if course.title %}
+									{{ course.title }}, {{ course.term }}
+								{% endif %}
+						</li>
 					{% endfor %}
-				</table>
+				</ul>
 			</li>
 		{% endfor %}
 	</ul>
