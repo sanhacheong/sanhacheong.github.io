@@ -11,11 +11,11 @@ permalink: /posts/:title/
 type: "blog"
 
 # build base for github.io page
-# base: /
-# pdf_dir: /pdf/
+base: /
+pdf_dir: /pdf/
 # build base for slac public_html
-base: /~sanha/
-pdf_dir: /~sanha/pdf/
+# base: /~sanha/
+# pdf_dir: /~sanha/pdf/
 ori_url: "https://sanhacheong.github.io"
 url: "https://www.slac.stanford.edu/~sanha/"
 domain_name: "https://www.slac.stanford.edu/~sanha/"
