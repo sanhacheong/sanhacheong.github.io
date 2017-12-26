@@ -36,12 +36,14 @@
       <tr>
         <td style="width:60%;">
           <h1>{{ page.title }}</h1>
-          <p class="post-abstract"> {{ page.abstract }} </p>
+          {% if page.abstract %}
+          <p class="post-abstract">"{{ page.abstract }}"</p>
+          {% endif %}
         </td>
         {% if page.author %}
           <td style="position: absolute; bottom: 0; width:40%;" align="right">
             {% if page.date %}
-              {{ page.date | date:"%b %d, %Y" }}
+              <{{ page.date | date:"%b %d, %Y" }}
               <br>
             {% endif %}
             {% if page.translated %}

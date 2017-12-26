@@ -1,9 +1,10 @@
 ---
 layout: posts
 title: LHC 데이터는 어떻게 만들어질까?
+abstract: 대형강입자가속기의 양성자들은 새로운 입자로 변하고, 이 입자들은 빛과 에너지가 되어 결국 데이터로 기록된다.
 date: 2017-12-25
 category: Symmetry KR
-tags: [입자물리, 대형강입자가속기, LHC, 빅데이터]
+tags: [입자물리, 대형 강입자 가속기, LHC, 빅데이터]
 author: Sarah Charley
 translated: Sanha Cheong
 original_url: https://www.symmetrymagazine.org/article/lhc-data-how-its-made
@@ -11,11 +12,13 @@ language: ko
 ---
 
 <img src="{{ site.base }}assets/img/posts/2017-12-25-img1.jpg" class="post-img"/>
-<div class="img-caption"> Testing
+<div class="img-caption">
 <div class="img-ref"> Photo by Silvia Biondi; Matteo Franchini, CERN </div>
 </div>
 
 대형 강입자 충돌기 (영어: Large Hadron Collider, LHC) 는 확실히 *대형*이다. LHC 의 둘레는 17 마일 (27 킬로미터) 인데, 이는 지구에서 단연 가장 큰 입자 충돌기이다.  그런데, 사실 이 "강입자 충돌기" 라는 이름은 다소 오해의 소지가 있다. LHC 에서 실제로 충돌하는 녀석들은 강입자 자체가 아니라, 강입자의 일부분인 더 작은 소립자들이기 때문이다.
+
+<div class="post-h"> TESTING 테스팅 </div>
 
 강입자란, 쿼크와 글루온으로 이루어진 합성 입자이다. 이 글루온이라는 녀석은 강한 핵력을 매개하는 입자들인데, 이 강한 핵력은 쿼크들을 서로 묶어서 하나의 입자로 만들 수 있게 해준다. [그래서 "glue-on" 이라는 이름이 붙었다.]  그 중에서도, LHC 의 주된 *총알*은 양성자라고 하는 강입자다. 이 양성자는 3개의 쿼크와, 갯수를 딱 집어 말할 수 없는 글루온들로 이루어져있다. [글루온은 힘을 매개하는 입자이다보니, 양성자 내에서 3개의 쿼크들이 글루온을 계속 방출하고 흡수하기 때문이다.] (그리고 양성자들은 원자들의 구성입자이며, 결국 원자들이 모여 우리 주위의 모든 물질들을 구성한다.)
 
