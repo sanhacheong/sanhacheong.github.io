@@ -21,10 +21,9 @@ blockquote > p {
   text-indent: 0em;
 }
 
-img .post-img > p {
-  text-indent: -2.5em;
-  float: center;
-  margin: 0px;
-  padding: 5px 20px;
+.post-img {
+  // float: center;
+  margin-left: -2.5em;
+  padding: 5px 100px;
   width: 800px;
 }
