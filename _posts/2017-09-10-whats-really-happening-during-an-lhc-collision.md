@@ -1,6 +1,7 @@
 ---
 layout: posts
 title: 도대체 대형 강입자 충돌기에서는 무슨 일이 일어나는걸까?
+abstract: 사실 충돌보다는 화음이 정확한 표현이다.
 date: 2017-09-10
 category: Symmetry KR
 tags: [입자물리, 대형강입자가속기, LHC]
@@ -9,6 +10,11 @@ translated: Sanha Cheong
 original_url: https://www.symmetrymagazine.org/article/whats-really-happening-during-an-lhc-collision
 language: ko
 ---
+
+<img src = "{{ site.base }}assets/img/posts/2017-09-10-img1.jpg" class="post-img"/>
+<div class="img-caption">
+<div class="img-ref"> ATLAS Collaboration </div>
+</div>
 
 대형 강입자 충돌기 (영어: Large Hadron Collider, LHC) 는 확실히 *대형*이다. LHC 의 둘레는 17 마일 (27 킬로미터) 인데, 이는 지구에서 단연 가장 큰 입자 충돌기이다.  그런데, 사실 이 "강입자 충돌기" 라는 이름은 다소 오해의 소지가 있다. LHC 에서 실제로 충돌하는 녀석들은 강입자 자체가 아니라, 강입자의 일부분인 더 작은 소립자들이기 때문이다.
 

@@ -11,6 +11,11 @@ h1 {
   // margin: 0;
 }
 
+.post-abstract {
+  color: #222222;
+  font-size: 100%;
+}
+
 blockquote {
   padding: 0.5ex 2.5em;
   margin-left: 2.5em;
@@ -22,8 +27,21 @@ blockquote > p {
 }
 
 .post-img {
-  // float: center;
   margin-left: -2.5em;
-  padding: 5px 100px;
-  width: 800px;
+  margin-bottom: 0px;
+  padding: 5px 0px;
+  width: 1000px;
+}
+
+.img-caption {
+  text-align: right;
+  font-size: 80%;
+  color: #000000;
+  margin-top: -30px;
+  margin-right: 5px;
+}
+
+.img-ref {
+  font-size: 75%;
+  color: #333333;
 }
