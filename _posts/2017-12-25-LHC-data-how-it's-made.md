@@ -13,8 +13,14 @@ language: ko
 
 <img src="{{ site.base }}assets/img/posts/2017-12-25-img1.jpg" class="post-img"/>
 <div class="img-caption">
-<div class="img-ref"> Photo by Silvia Biondi; Matteo Franchini, CERN </div>
+<div class="img-ref"> 사진 제공: Silvia Biondi; Matteo Franchini, CERN </div>
 </div>
+
+과학자들은 사실 힉스 보존 [흔히 말하는 힉스 입자, 영어: Higgs Boson] 을 *본* 적이 없다. 사실은, 양성자의 내부도 직접 본 적은 없고, 십중팔구 암흑물질도 평생 볼 수 없을 것이다. 사실 이 자연을 구성하는 대부분의 기초 입자들은, 우리 인간의 오감으로 아예 느낄 수 없다.
+
+하지만, 입자들을 성질과 그들 간의 상호작용의 알기 위해서, 꼭 그 입자들을 *볼* 필요는 없다. 원자보다 작은 세상에서 일어나는 이벤트들은 우리 눈으로 보기에는 너무나도 작고 빠르지만, 물리학자들은 입자 검측기를 이용해서 이 미시세계에 대한 정보를 얻을 수 있다.
+
+그런데, 
 
 대형 강입자 충돌기 (영어: Large Hadron Collider, LHC) 는 확실히 *대형*이다. LHC 의 둘레는 17 마일 (27 킬로미터) 인데, 이는 지구에서 단연 가장 큰 입자 충돌기이다.  그런데, 사실 이 "강입자 충돌기" 라는 이름은 다소 오해의 소지가 있다. LHC 에서 실제로 충돌하는 녀석들은 강입자 자체가 아니라, 강입자의 일부분인 더 작은 소립자들이기 때문이다.
 
