@@ -3,9 +3,9 @@
   position: Teaching Assistant
 
   courses:
-    - number: We shall see...
-      title:  
-      term:
+    - number: Physics 41
+      title:  Mechanics
+      term:   Winter 2018
 
 - name: University of Rochester
   url: https://www.rochester.edu
