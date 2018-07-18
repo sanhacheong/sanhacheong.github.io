@@ -41,9 +41,10 @@ function hideNavbar() {
 var currentMousePosY = 500;
 
 // based on mouse position, play around with navbar
-$(document).mousemove(function(event) {
+$(document).mousemove(function(evt) {
 	// update mouse position
-	currentMousePosY = window.event.clientY;
+	evt = evt || window.event;
+	currentMousePosY = evt.clientY;
 
 	// if within top 100px
 	if (currentMousePosY <= 100) {
