@@ -13,16 +13,16 @@ permalink: /posts/:title/
 type: "blog"
 
 # build base for github.io page
-# base: /
-# share_dir: /share/
-# ori_url: "https://sanhacheong.github.io"
-# url: "https://sanhacheong.github.io"
-# domain_name: "https://sanhacheong.github.io"
+base: /
+share_dir: /share/
+ori_url: "https://sanhacheong.github.io"
+url: "https://sanhacheong.github.io"
+domain_name: "https://sanhacheong.github.io"
 # build base for slac public_html
-base: /~sanha/
-share_dir: /~sanha/share/
-url: "https://www.slac.stanford.edu/~sanha/"
-domain_name: "https://www.slac.stanford.edu/~sanha/"
+# base: /~sanha/
+# share_dir: /~sanha/share/
+# url: "https://www.slac.stanford.edu/~sanha/"
+# domain_name: "https://www.slac.stanford.edu/~sanha/"
 baseurl: ""
 exclude: ["old_brute_web"]
 disqus_shortname: "sanha"
