@@ -2,7 +2,7 @@
 layout: posts
 title: LHC 데이터는 어떻게 만들어질까?
 abstract: 대형강입자가속기의 양성자들은 새로운 입자로 변하고, 이 입자들은 빛과 에너지가 되어 결국 데이터로 기록된다.
-date: 2017-12-25
+date: 2017-12-27
 category: Symmetry KR
 tags: [입자물리, 대형 강입자 충돌기, LHC, 빅데이터]
 author: Sarah Charley
