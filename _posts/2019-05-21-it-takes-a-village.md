@@ -1,17 +1,18 @@
 ---
 layout: posts
-title: 물리학에서 데이터 사이언스로
-abstract: 네명의 물리학자가 들려주는 학계를 거쳐 산업계 취업에 이르기까지의 여정, 그리고 비슷한 선택지를 앞둔 이들을 위한 조언.
-date: 2019-05-21
+title: 하나의 마을과 같다
+abstract: 입자물리 연구소를 만드는 데에는, 물리학자 외에도 많은 사람들이 필요하다.
+date: 2019-04-25
 category: Symmetry KR
 tags: [물리, 입자물리, 데이터 사이언스, 취업, 커리어]
 author: Sarah Charley
 translated: Sanha Cheong
 original_url: https://www.symmetrymagazine.org/article/from-physics-to-data-science
 language: ko
+
 ---
 
-<img src="{{ site.base }}assets/img/posts/2019-05-21-header.jpg" class="post-img"/>
+<img src="{{ site.base }}assets/img/posts/2019-04-25-header.jpg" class="post-img"/>
 
 <div class="img-caption">
 <div class="img-ref">일러스트: Sandbox Studio (시카고); Connie Mucha</div>
@@ -29,7 +30,7 @@ language: ko
 
 <div class="post-h">Jamie Antonelli</div>
 
-<img src="{{ site.base }}assets/img/posts/2019-05-21-Jamie-Antonelli.jpg" class="post-subimg"/>
+<img src="/home/scheong/immanuel/sanhacheong.github.io/_posts/%7B%7B%20site.base%20%7D%7Dassets/img/posts/2019-05-21-Jamie-Antonelli.jpg" class="post-subimg"/>
 
 1999년, 고등학교 2학년의 Antonelli 는 고등학교 선생님이 볼링공과 달걀을 떨어뜨리는 실험을 하는 것을 보면서, 무거운 물체가 먼저 떨어질 것이라고 생각했다. 하지만 두 물체는 동시에 떨어졌다.
 
@@ -65,7 +66,7 @@ Antonelli 는 이제 병원에서 수집된 데이터를 분석하고, 헬스 �
 
 <div class="post-h">Jennifer Hobbs</div>
 
-<img src="{{ site.base }}assets/img/posts/2019-05-21-Jennifer-Hobbs.jpg" class="post-subimg"/>
+<img src="/home/scheong/immanuel/sanhacheong.github.io/_posts/%7B%7B%20site.base%20%7D%7Dassets/img/posts/2019-05-21-Jennifer-Hobbs.jpg" class="post-subimg"/>
 
 Jennifer Hobbs 는 초등학교 시절 과학시간에 의기소침하게 앉아있던 날을 되새기며 말한다. "모든 게 밝혀진 것 같았어요. 의학을 제외하면, 세상이 어떻게 굴러가는지 다 알고 있는 것 같았죠. '아, 세상은 이게 다구나' 라고 생각했어요."
 
@@ -101,7 +102,7 @@ Hobbs 는 그렇게 신경과학으로 전공 분야를 바꾸게 됐다.  그�
 
 <div class="post-h">Dongwook Jang</div>
 
-<img src="{{ site.base }}assets/img/posts/2019-05-21-Dongwook-Jang.jpg" class="post-subimg"/>
+<img src="/home/scheong/immanuel/sanhacheong.github.io/_posts/%7B%7B%20site.base%20%7D%7Dassets/img/posts/2019-05-21-Dongwook-Jang.jpg" class="post-subimg"/>
 
 학생 시절, 장동욱씨는 수학을 잘 했지만, 그걸 어떻게 직업으로 삼을 수 있을지 잘 알지 못했다.
 
@@ -141,7 +142,7 @@ Hobbs 는 그렇게 신경과학으로 전공 분야를 바꾸게 됐다.  그�
 
 <div class="post-h">Thomas Gadfort</div>
 
-<img src="{{ site.base }}assets/img/posts/2019-05-21-Thomas-Gadfort.jpg" class="post-subimg"/>
+<img src="/home/scheong/immanuel/sanhacheong.github.io/_posts/%7B%7B%20site.base%20%7D%7Dassets/img/posts/2019-05-21-Thomas-Gadfort.jpg" class="post-subimg"/>
 
 물리학계 내에서라면, 그 어떤 기준으로 따져도 Thomas Gadfort 는 성공한 물리학자였다. 2012년, 그는 브룩헤이븐 연구소 (Brookhaven National Laboratory) 에서의 포닥 자리를 떠나, 페르미랩에서 과학자 자리를 얻게 되었다. 그리고, 그와 그의 아내는 첫 아이를 가지게 됐다.
 
