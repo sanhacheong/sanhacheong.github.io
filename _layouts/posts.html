@@ -2,6 +2,15 @@
 <html lang="en-US">
 
 <head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-172918706-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-172918706-1');
+  </script>
   <meta charset="utf-8">
   <title>{{ site.name }}{% if page.category %} | [{{ page.category }}] {% endif %} {% if page.title %} {{ page.title }}{% endif %}</title>
   <link rel="icon" type = "image/x-icon" href="{{ site.base }}assets/img/icon.png">
@@ -12,16 +21,6 @@
   <meta property="og:image" content="{{ site.meta_home_image }}" />
   <meta property="og:type" content="{{ site.type }}"/>
   <meta property="og:url" content="{{ site.url }}"/>
-  
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-172918706-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'UA-172918706-1');
-  </script>
 </head>
 
 
