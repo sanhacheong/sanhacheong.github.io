@@ -25,6 +25,7 @@ domain_name: "https://sanhacheong.github.io"
 # domain_name: "https://www.slac.stanford.edu/~sanha/"
 baseurl: ""
 exclude: ["old_brute_web"]
+exclude: [vendor]
 disqus_shortname: "sanha"
 
 email: sanha@stanford.edu
