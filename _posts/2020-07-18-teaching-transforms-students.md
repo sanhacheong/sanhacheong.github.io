@@ -1,23 +1,6 @@
 ---
 layout: posts
 title: Teaching Transforms Students
-abstract: >-
-  What is the ultimate goal of education? What impacts do teachers have on their
-  students?
-date: {}
-category: null
-tags:
-  - Science
-  - Teaching
-  - Education
-  - Outreach
-author: Sanha Cheong
-language: en
-published: true
----
----
-layout: posts
-title: Teaching Transforms Students
 abstract: What is the ultimate goal of education? What impacts do teachers have on their students?
 date: 2020-07-18
 category: 
