@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=BenchNine:700|Roboto:wght@500|Open+Sans+Condensed:300');
+@import url('https://fonts.googleapis.com/earlyaccess/notosanskr.css');
+
+
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: "Roboto", "Open Sans", "Noto Sans KR", sans-serif;
+  font-size: 18px;
+  letter-spacing: 0.04em;
+}
+
+.title {
+  font-family: "BenchNine", sans-serif;
+  font-size: 56px;
+  letter-spacing: 0.5em;
+  font-weight: bold;
+}
+
+.subtitle {
+  font-family: "BenchNine", sans-serif;
+  display: block;
+  font-size: 40px;
+  letter-spacing: 0.25em;
+  font-weight: bold;
+}
+
+li.navbar a {
+  display: block;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 16px;
+  letter-spacing: 0.1em;
+  text-decoration: none;
+}
+
+
+
+:lang(ko) {
+  font-family: "Noto Sans KR";
+  font-size: 20px;
+}

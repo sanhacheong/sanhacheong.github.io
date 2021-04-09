@@ -1,0 +1,24 @@
+.paginator {
+  padding: 50px 100px;
+}
+
+li.page-list {
+  font-size: 85%;
+  /*border-bottom: 2px solid #753333;*/
+  border-top: 2px solid #753333;
+  padding: 10px 10px;
+  margin: 0px;
+}
+
+li.page-list:last-child {
+  border-bottom: 2px solid #753333;
+} 
+
+li.page-list:hover {
+  background-color: #EEEEEE;
+}
+
+.tags {
+  font-size: 16px;
+  color: #555555;
+}
